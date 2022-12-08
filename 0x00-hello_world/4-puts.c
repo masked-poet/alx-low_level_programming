@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * main -Entry
- * return -alway 0
+ * Main -Entry
+ * Return: Alway 0
  *
  */
 int main(void)
