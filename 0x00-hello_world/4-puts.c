@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main -
+ * main -Entry
  * return -alway 0
  *
  */
