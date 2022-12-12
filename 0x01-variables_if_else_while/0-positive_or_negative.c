@@ -3,7 +3,7 @@
 #include <time.h>
 /* betty syle*/
 /**
- * Main-print whether the num
+ * Main- Entry
  * Return: Always 0
  */
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/** goes here is our code*/
+	/* goes here is our code*/
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
