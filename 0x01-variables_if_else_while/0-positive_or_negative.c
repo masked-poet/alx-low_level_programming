@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/* betty syle*/
 /**
  * Main-print whether the num
- * Return: Always
+ * Return: Always 0
  */
 int main(void)
 {
