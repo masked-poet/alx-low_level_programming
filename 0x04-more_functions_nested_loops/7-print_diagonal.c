@@ -3,7 +3,7 @@
  * print_diagonal - entry point
  * Description: Prints diagonals
  *
- *@n: number of spaces
+ *@n: number of s;paces
  *
  * Return: void
  *
@@ -11,7 +11,6 @@
 void print_diagonal(int n)
 {
 	int row, num_lines
-
 			if (n <= 0)
 
 			{
@@ -19,11 +18,12 @@ void print_diagonal(int n)
 			}
 	else
 	{
-			for (row = 1; row <= n; row++)
+		for (row = 1; row <= n; row++)
 		{
-				if (row > 1)
+			if (row > 1)
+
 			{
-					for (num_lines = 1; num_lines <= row - 1; num_lines++)
+			for (num_lines = 1; num_lines <= row - 1; num_lines++)
 			}
 			_putchar(' ');
 		}
