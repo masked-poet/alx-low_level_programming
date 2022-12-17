@@ -1,21 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  *main - function
  *
  *Return: valve 0
  *
  */
-
 int main(void)
 {
-	char c:
-		for (c = 'z'; c >= 'a'; c--)
+	int a;
 
-		{
-			putchar(c);
-
-		}
+	for (a = 0; a < 10; a++)
+	{
+		putchar(a + '0');
+	}
+	for (a = 'a'; a <= 'f'; a++)
+	{
+		putchar(a);
+	}
 	putchar('\n');
 	return (0);
 }
