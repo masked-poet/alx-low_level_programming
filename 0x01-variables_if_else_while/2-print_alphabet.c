@@ -1,19 +1,19 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
-
+/**
+ *main - function
+ *
+ *   *Return: valve 0
+ *
+ */
 int main(void)
-
 {
-char c = 'a';
-for c = 'a'; c <= 'z'; c++;
-{
-	putchar(c);
-	
-}
-
-putchar('\n');
-return (0);
+	char c;
+		for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
