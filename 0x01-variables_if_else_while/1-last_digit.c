@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*headers */
+
 /**
- * main -main entry
+ *  *main - function
  *
+ *   *Return: valve 0
  *
-*/
+ */
 int main(void)
 {
 	int n;
