@@ -16,10 +16,10 @@ void rev_string(char *s)
 
 	f = a / 2;
 
-	while (half--)
+	while (f--)
 	{
 		temp = s[a - i - 1];
-		s[len - i - 1] = s[i];
+		s[a - i - 1] = s[i];
 		s[i] = temp;
 
 		i++;
