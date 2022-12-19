@@ -1,0 +1,21 @@
+8-print_square.c
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   8-print_square.c
+#
+# Changes not staged for commit:
+#	modified:   ../0x00-hello_world/4-puts.c
+#	modified:   ../0x01-variables_if_else_while/2-print_alphabet.c
+#	modified:   ../0x02-functions_nested_loops/103-fibonacci.c
+#	modified:   ../0x02-functions_nested_loops/104-fibonacci.c
+#
+# Untracked files:
+#	../0x01-variables_if_else_while/.2-print_alphabet.c.swo
+#	../README.md
+#
