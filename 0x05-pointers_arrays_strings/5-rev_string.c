@@ -7,22 +7,20 @@ nclude "main.h"
  */
 void rev_string(char *s)
 {
-	int a, i, f;
+	int len, i, half;
 	char temp;
 
-	for (a = 0; s[a] != '\0'; a++)
+	for (len = 0; s[len] != '\0'; len++)
 		;
 	i = 0;
 
-	f = a / 2;
+	half = len / 2;
 
-	while (f--)
+	while (half--)
 	{
-		temp = s[a - i - 1];
-		s[a - i - 1] = s[i];
+		temp = s[len - i - 1];
+		s[len - i - 1] = s[i];
 		s[i] = temp;
-
 		i++;
 	}
 }
-
