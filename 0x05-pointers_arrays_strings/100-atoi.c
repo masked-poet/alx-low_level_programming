@@ -29,9 +29,9 @@ int _atoi(char *s)
 			else if (f == 1 && s[i] == ' ')
 				f = 2;
 		}
+	}
 		if (f == 0)
 			return (0);
 		return (sum * minus);
-	
-	}
+}
 }
