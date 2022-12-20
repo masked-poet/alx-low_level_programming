@@ -1,14 +1,11 @@
 #include "main.h"
-
 /**
  * _atoi - convert a string to a integer
- *
  * @s: the string that need to convert
  *
  * Return: return the converted integer
  *
  */
-
 int _atoi(char *s)
 {
 	int i, j, f = 0, num, minus = 1;
@@ -30,8 +27,8 @@ int _atoi(char *s)
 				f = 2;
 		}
 	}
-		if (f == 0)
-			return (0);
-		return (sum * minus);
+	if (f == 0)
+		return (0);
+	return (sum * minus);
 }
-}
+
