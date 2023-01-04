@@ -6,7 +6,6 @@
  *Return: valve 0
  *
  */
-
 int main(void)
 {
 	char c:
