@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * * str_concat - concatenates two strings.
+/**
+ * str_concat - concatenates two strings.
  * @s1: first input string.
  * @s2: second input string
  * Return: returns NULL on failure
