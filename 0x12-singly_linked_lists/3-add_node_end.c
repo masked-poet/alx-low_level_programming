@@ -1,9 +1,10 @@
 #include "lists.h"
 #include <stdlib.h>
+
 /**
  * _strlen - return the lenggth from a string
+ *  @s: pointer to first character of a string
  *
- *   *  @s: pointer to first character of a string
  *  Return: number of characters in a string
  */
 unsigned int _strlen(const char *s)
@@ -15,12 +16,13 @@ unsigned int _strlen(const char *s)
 		len++;
 		s++;
 	}
+
 	return (len);
 }
+
 /**
  * _strdup - Returns a pointer to a copy of the string given as a parameter
- *
- *   * @str: String given as a parameter
+ * @str: String given as a parameter
  *
  * Return: Pointer to a copy of str
  */
@@ -51,8 +53,10 @@ char *_strdup(const char *str)
 			}
 			return (s);
 		}
+
 	}
 }
+
 /**
  * add_node_end - adds a new node at the end of a list_t list
  * @head: Pointer to the pointer of beginning of the list_t list
@@ -81,5 +85,6 @@ list_t *add_node_end(list_t **head, const char *str)
 			current_node = current_node->next;
 		current_node->next = new_node;
 	}
+
 	return (new_node);
 }
